@@ -1,0 +1,32 @@
+body{
+    background-color: lightblue;
+}
+header{
+    text-align: center;
+    color: white;
+}
+section{
+    max-width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+div{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+div#foto{
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    border-radius: 100px;
+}
+footer{
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: #9595e4;
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    
+    <script>
+        var n1 = Number(window.prompt('Digite um numero.'))
+        var n2 = Number(window.prompt('Digite outro numero.')) //Number converte para numero
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}!`) // COnverte para string
+
+        var nome = window.prompt('Qual seu nome ?')
+
+        window.alert('Muito prazer ' + nome.toUpperCase())
+        window.alert('Muito prazer ' + nome.toLowerCase())
+        window.alert('Muito prazer ' + nome.length)
+        //str + str o + vai concatenar
+        //numer + number o + vai somar
+
+    </script>
+</body>
+</html>
