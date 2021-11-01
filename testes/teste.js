@@ -1,4 +1,4 @@
-var vet = []
+/*var vet = []
 somar(2)
 function somar(n){
     vet.push(n)
@@ -16,5 +16,7 @@ for(i=0;i<vet.length;i++){
 
 
 console.log(vet)
-console.log(soma)
+console.log(soma)*/
+
+console.log(4/2)
 

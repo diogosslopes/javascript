@@ -15,32 +15,39 @@
         <section"><p id="res"></p></section>
         <section id="botoes">
             <article>
+                <button class="btespecial" onclick="clean()"> CA </button>
+                <button class="btespecial" onclick="back()"> < </button>
+                <button class="btespecial" onclick="guardar('**')"> x² </button>
+                <button class="btespecial" onclick="guardar('/')"> / </button>
+            </article>
+            <article>
                 
                 <button class="btn" onclick="guardar('7')"> 7 </button>
                 <button class="btn" onclick="guardar('8')"> 8 </button>
                 <button class="btn" onclick="guardar('9')"> 9 </button>
-                <button class="btn" class="btespecial" onclick="guardar('-')"> - </button>
+                <button class="btespecial" onclick="guardar('*')"> x </button>
             </article>
 
             <article>
                 <button class="btn" onclick="guardar('4')">4</button>
                 <button class="btn" onclick="guardar('5')">5</button>
                 <button class="btn" onclick="guardar('6')">6</button>
-                <button class="btn" class="btespecial" onclick="guardar('+')">+</button>
+                <button class="btespecial" onclick="guardar('-')">-</button>
             </article>
 
             <article>
                 <button class="btn" onclick="guardar('1')">1</button>
                 <button class="btn" onclick="guardar('2')">2</button>
                 <button class="btn" onclick="guardar('3')">3</button>
-                <button class="btn" class="btespecial" onclick="guardar('/')">/</button>
+                <button class="btespecial" onclick="guardar('+')">+</button>
             </article>
 
             <article>
 
                 <button class="btn" onclick="guardar('0')" id="bt0">0</button>
-                <button class="btn" class="btespecial" onclick="resultado()">=</button>
-                <button class="btn" class="btespecial" onclick="guardar('*')">*</button>
+                <button class="btn" onclick="guardar('.')">.</button>
+                <button id="bti" class="btespecial" onclick="resultado()">=</button>
+                
                 
             </article>
 
