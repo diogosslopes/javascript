@@ -17,6 +17,8 @@ function resultado(){
 }
 fim = false
 
+
+
 function clean(){
     var result = document.getElementById('res')
     result.innerHTML = ''

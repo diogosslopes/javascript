@@ -70,11 +70,11 @@ var cartas = [
     var valorCartaMaquina = cartaMaquina.atributos[atributoSelecionado]
     
     if( valorCartaJogador > valorCartaMaquina ){
-      elementoResultado.innerHTML = "Parabéns, você venceu !"
+      elementoResultado.innerHTML = "<p class='resultado-final'>Parabéns, você venceu !</p>"
     }else if(valorCartaJogador < valorCartaMaquina){
-      elementoResultado.innerHTML = "Que pena, você perdeu !"
+      elementoResultado.innerHTML = "<p class='resultado-final'>Que pena, você perdeu !</p>"
     }else{
-      elementoResultado.innerHTML = "Empate !"
+      elementoResultado.innerHTML = "<p class='resultado-final'>Empate !</p>"
     }
     exibirCartaMaquina()
   }
