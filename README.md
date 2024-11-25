@@ -1,2 +1,2 @@
 # javascript
- Aprendendo Java
+ Exercícios realizados durante estudos de JavaScript.
